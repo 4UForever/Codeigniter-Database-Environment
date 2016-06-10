@@ -1,7 +1,7 @@
 # Codeigniter-Database-Environment
 Manage your database environment in codeigniter
 
-- Copy database.php into your project config folder
+- Copy `database.php` into your project config folder
 
 - Manage your environment by edit this line
 ```php
@@ -19,7 +19,7 @@ $db_env = array(
 'database' => '', // Your DB name
 ```
 
-- Config the environment by edit index.php in your project
+- Config the environment by edit `index.php` in your project
 ```php
 define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
 ```
