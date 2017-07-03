@@ -24,4 +24,4 @@ $db_env = array(
 define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
 ```
 
-Then when your call `$this->db` thie environment will switch as you config.
+Then when your call `$this->db` the environment will switch as you config.
